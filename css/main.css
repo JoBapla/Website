@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Body */
+h1, p, h2, a{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body{
+    background-color: #f6f5f1;
+}
+
+/* WRITING */
+#quote{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    color:rgb(225,225,225);
+}
+
+
+#bannerImg{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    
+  
+}
+
+
+/* title */
+h1{
+    text-align: center;
+    margin: auto;
+    max-width: 20rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+
+p{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 60rem;
+    font-size: 1.25rem;
+
+}
+
+#firstPara{
+    line-height: 1.8rem;
+}
+
+
+/* survey button */
+#survey{
+    text-align: center;
+    padding-top: 0.5rem;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    width: 13rem;
+    height: 3rem;
+    background-color: #1d5090;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#survey:hover, #survey:focus{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* WRITING END */
+
+/* BUTTON */
+.myButton {
+    display: block;
+
+    font-size: 1.25rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.3rem;
+
+    border: none;
+    background-color: transparent;
+    color: white;
+
+    border-bottom: 0.1rem solid transparent;
+
+    margin: auto;
+
+}
+
+.myButton:hover, .myButton:focus {
+    /* background-color: rgb(37, 44, 39); */
+    border-bottom: 0.1rem solid rgb(255,255,255);
+}
+
+
+/* Responsive main text box */
+
+/* Extreme ridiculous small */
+.textBox {
+    background: rgb(240,240,240);
+    color: black;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    padding: 10px;
+    box-shadow: 4px 4px rgb(40,40,40);
+}
+
+/* Anything else */
+@media (min-width: 10rem){
+    .textBox {
+        background: rgb(240,240,240);
+        color: black;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    
+        padding: 10px;
+        box-shadow: 4px 4px rgb(40,40,40);
+    }
+}
+
+/* 1024 Width */
+@media (min-width: 64rem){
+    .textBox {
+        background: rgb(240,240,240);
+        color: black;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    
+        padding: 10px;
+        box-shadow: 4px 4px rgb(40,40,40);
+    }
+    
+
+}
+
+@media (max-width: 62.5rem){
+    #quote{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 40rem){
+    #quote{
+        margin-top: 17rem;
+        font-size: 1.5rem;
+
+    }
+}
+
+h2{
+    font-size: 0.9rem;
+}
+
+
+

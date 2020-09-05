@@ -1,0 +1,201 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, p, h2, a{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body{
+    background-color: #f6f5f1;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+p{
+    color: black;
+}
+
+a:hover,a:focus{
+    color: #1d5090;
+}
+
+
+
+/* WRITING */
+
+
+
+#bannerImg{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    
+  
+}
+
+
+/* title */
+
+figcaption{
+    text-decoration: none;    
+    text-align: center;
+}
+
+
+p{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 60rem;
+    font-size: 1.25rem;
+}
+
+#whiteText{
+    color: white;
+    font-size: 1.25rem;
+}
+
+#quote{
+    text-align: center;
+    margin: auto;
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    color:rgb(225,225,225);
+}
+
+/* survey button */
+#survey{
+    display: block;
+    margin:auto;
+    margin-top: 4rem;
+    border-radius: 3rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: #3f92c4;
+    color: white;
+    font-size: 1.75rem;
+}
+
+button:hover, button:focus{
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+/* WRITING END */
+
+
+
+
+
+
+
+/* BUTTON */
+.myButton {
+    display: block;
+
+    font-size: 1.25rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.3rem;
+
+    border: none;
+    background-color: transparent;
+    color: white;
+
+    border-bottom: 0.1rem solid transparent;
+
+    margin: auto;
+
+}
+
+.myButton:hover, .myButton:focus {
+    /* background-color: rgb(37, 44, 39); */
+    border-bottom: 0.1rem solid rgb(255,255,255);
+}
+
+
+/* my new classes */
+
+.learnMoreSetup {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.driversSetup {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    text-align: center;
+    margin: auto;
+}
+
+.learnMoreImages{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    transition: 1s;
+}
+
+.learnMoreImages:hover, .learnMoreImages:focus{
+    opacity: 0.7;
+}
+
+#headerTitle{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 48.75rem){
+    h2{
+        text-align: center;
+    }
+    #subscribe{
+        text-align: center;
+    }
+    input{
+        display: block;
+        margin: auto;
+    }
+    #sub-button{
+        display: block;
+        margin: auto;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+   
+  
+}
+
+@media (max-width: 35rem){
+    #whiteText{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media (max-width: 62.5rem){
+    #whiteText{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+  
+}
+
+@media (max-width: 43.75rem){
+    .learnMoreImages{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }  
+}

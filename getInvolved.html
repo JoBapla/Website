@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <title>Vancouver Plan</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+		
+        <link rel="stylesheet" href="css/getInvolved.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/headerFooter.css">
+        
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="grid two-column-header">
+                 <!-- Nav bar -->
+                 <section id="nav">
+                     <div class="grid two-column-header">
+                         <!-- left block -->
+                         <div>
+                             <a href="index.html">
+                             <img id="mainLogo" src="img/logo.png" alt="Logo of the Vancouver Plan Organization">
+                             </a>
+                         </div>
+                         <!-- Right block -->
+                         <div class="grid three-column-header">
+                             <a href="learnMore.html">
+                                 Learn More
+                             </a> 
+                             <a href="getInvolved.html">
+                                 Get Involved
+                             </a> 
+                             <a href="contactUs.html">
+                                 Contact Us
+                             </a> 
+                         </div>
+                     </div>
+                 </section>
+              </div>
+         </header>
+
+
+         <div class="contactUsSetup">
+            <!-- Main heading -->
+            <section id="quote">
+            <h1>Get Involved</h1>
+            </section>
+        </div>
+
+
+        <div class="grid two-column-getInvolved">
+            <!-- Left Side -->
+            <section id="inputBox" style="justify-self: center;">
+                <label for="firstForm" class="blackLabel">First Name</label>
+                <input class="form" type="text" id="firstForm">
+                <label for="secondForm" class="blackLabel">Last Name</label>
+                <input class="form" type="text" id="secondForm">
+                <label for="thirdForm" class="blackLabel">Email</label>
+                <input class="form" type="text" id="thirdForm">
+
+                <!-- Drop down box for topics -->
+                <label for="drivers" class="blackLabel" >Share your thoughts on:</label>
+               
+                <select id="drivers">
+                  <option value="income">Income</option>
+                  <option value="housing">Housing</option>
+                  <option value="displacement">Displacement</option>
+                </select>
+                
+                <!-- Text box for drop down menu -->
+                <label for="textBox" class="blackLabel" id="labelTop">Message:</label>
+                <textarea name="message" rows="10" cols="50" id="textBox"></textarea>
+                
+                <button id="submit">Submit</button>
+            </section>
+
+            <section id="stockPhoto">
+                <img src="img/getInvolved.png" id="img" alt="Housing Icon">
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <section id="footer">
+                <div class="grid two-column-footer">
+                    <div class="grid three-column-footer">
+                    
+                        <button class="myButton">Twitter</button>
+
+                        <button class="myButton">Instagram</button>
+                    
+                        <button class="myButton">Facebook</button>
+                    
+                    </div>
+                    
+                    <div id="sub"> 
+                    <label for="subs">Subscribe to our newsletter:</label>
+                     <input type="text" id="subs" placeholder="Your email" >
+                    <button id="sub-button">Subscribe</button>
+                    </div>
+                    
+                </div>
+                    
+
+            </section>
+            <!-- Copyright -->
+            <h2 id="copyright">© Vancouver Plan 2020</h2>
+        </footer> 
+
+        <!-- Java Script -->
+        <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        // Change the background of the nav bar when scrolling
+        function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("nav").style.backgroundColor = "#1d5090";
+        } else {
+            document.getElementById("nav").style.backgroundColor = "transparent";
+        }
+        }
+        </script>
+       
+    </body>
+</html>

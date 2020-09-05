@@ -1,0 +1,172 @@
+/* HEADER */
+header{
+    background-color: transparent;
+    color: white;
+}
+
+#mainLogo{
+    margin-top: 0rem;
+}
+
+h1{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-size: 2.75rem;
+}
+
+#nav{
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+}
+
+#nav a{
+    text-align: center;
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: none;
+    color: white;
+    border-left: transparent solid;
+    
+}
+
+@media (max-width: 40rem){
+    #nav a{
+        margin-bottom: 0.75rem;
+    }
+}
+
+#nav a:hover, #nav a:focus{
+   text-decoration: underline;
+}
+
+/* HEADER END */
+
+
+
+/* FOOTER */
+footer{
+    margin-top: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+    background-color: #1d5090;
+   
+}
+
+
+/* socials section */
+.socials{
+    margin-top: .5rem;
+    align-self: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+/* subscribe section */
+
+#sub{
+    margin: auto;
+}
+
+label{
+    display: block;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top: .5rem;
+    color:white;
+    font-size: 1rem;
+}
+
+
+
+input{
+    display: block;
+    max-width: 15rem;
+    width: 100%;
+}
+
+#sub-button{
+    display: block;
+    margin: auto;
+    margin-top: .5rem;
+    font-size: 0.9rem;
+    width: 5rem;
+    height: 1.25rem;
+    background-color: white;
+    border: none;
+}
+
+h5{
+    text-align: center;
+    color: darkgray;
+    margin-top: 1rem
+}
+
+
+.myButton {
+    display: block;
+
+    font-size: 1.25rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.3rem;
+
+    border: none;
+    background-color: transparent;
+    color: white;
+
+    border-bottom: 0.1rem solid transparent;
+
+    margin: auto;
+
+}
+
+.myButton:hover, .myButton:focus {
+    /* background-color: rgb(37, 44, 39); */
+    border-bottom: 0.1rem solid rgb(255,255,255);
+}
+/* FOOTER END */
+
+
+
+@media (max-width: 48.75rem){
+    h2{
+        text-align: center;
+    }
+    #subscribe{
+        text-align: center;
+    }
+    input{
+        display: block;
+        margin: auto;
+    }
+   
+  
+}
+
+
+@media (max-width: 35rem){
+    h1{
+        font-size: 2rem;
+    }
+}
+
+body{
+    background: url("backgroundImage.png");
+    background-repeat: no-repeat;
+    background-color: #f6f5f1;
+}
+
+#copyright{
+    text-align: center;
+    color: darkgray;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <title>Vancouver Plan</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+		
+      
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/headerFooter.css">
+        <link rel="stylesheet" href="css/contactUs.css">
+        
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="grid two-column-header">
+                 <!-- Nav bar -->
+                 <section id="nav">
+                     <div class="grid two-column-header">
+                         <!-- left block -->
+                         <div>
+                             <a href="index.html">
+                             <img id="mainLogo" src="img/logo.png" alt="Logo of the Vancouver Plan Organization">
+                             </a>
+                         </div>
+                         <!-- Right block -->
+                         <div class="grid three-column-header">
+                             <a href="learnMore.html">
+                                 Learn More
+                             </a> 
+                             <a href="getInvolved.html">
+                                 Get Involved
+                             </a> 
+                             <a href="contactUs.html">
+                                 Contact Us
+                             </a> 
+                         </div>
+                     </div>
+                 </section>
+              </div>
+         </header>
+
+
+         <div class="contactUsSetup">
+            <!-- Main heading -->
+            <section id="quote">
+            <h1> Contact Us</h1>
+            </section>
+        </div>
+
+        <div class="grid three-column-contactUs">
+            <section id="sub-form">
+                <h2 class="withBottomMargin">Subscribe to newsletter</h2>
+                <label for="firstForm" class="blackLabel">First Name</label>
+                <input class="form" type="text" id="firstForm">
+                <label for="secondForm" class="blackLabel">Last Name</label>
+                <input class="form" type="text" id="secondForm">
+                <label for="thirdForm" class="blackLabel">Email</label>
+                <input class="form" type="text" id="thirdForm">
+                <button id="submit" class="blackLabel">Submit</button>
+            </section>
+
+            <section id="info">
+                <h2>Contact Us</h2>
+                <h3>Address</h3>
+                <h4>1234 Street McStreet<br>
+                Richmond B.C.  V12 Y23<br>
+                Canada</h4>
+                
+                <h3>Phone</h3>
+                <h4>778-123-4567</h4>
+                
+                <h3>E-mail</h3>
+                <h4>teamgroup14@gmail.com</h4>
+
+
+            </section>
+
+
+            <section>
+                <div class="google-maps">
+    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10410.94290935472!2d-123.12402070663157!3d49.28140462928907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1586407648172!5m2!1sen!2sca" title="map" style="border:0"></iframe>
+                </div>
+            </section>
+            
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <section id="footer">
+                <div class="grid two-column-footer">
+                    <div class="grid three-column-footer">
+                    
+                        <button class="myButton">Twitter</button>
+
+                        <button class="myButton">Instagram</button>
+                    
+                        <button class="myButton">Facebook</button>
+                    
+                    </div>
+                    
+                    <div id="sub"> 
+                    <label for="subs">Subscribe to our newsletter:</label>
+                     <input type="text" id="subs" placeholder="Your email" >
+                    <button id="sub-button">Subscribe</button>
+                    </div>
+                    
+                </div>
+                    
+
+            </section>
+            <!-- Copyright -->
+            <h2 id="copyright">© Vancouver Plan 2020</h2>
+        </footer> 
+
+        <!-- Java Script -->
+        <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        // Change the background of the nav bar when scrolling
+        function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("nav").style.backgroundColor = "#1d5090";
+        } else {
+            document.getElementById("nav").style.backgroundColor = "transparent";
+        }
+        }
+        </script>
+       
+    </body>
+</html>

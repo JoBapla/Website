@@ -1,0 +1,143 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+}
+
+
+/* Two Columns */
+@media (min-width: 32rem){
+
+    .grid.two-column{
+        
+        
+        grid-template-columns: fit-content(50rem) fit-content(50rem);
+        
+        grid-column-gap: 2rem;
+        grid-template-rows: auto;
+        grid-auto-flow: row ;
+       
+    }
+    
+    .grid.two-column-even{
+        
+        
+        grid-template-columns: 1fr 1fr;
+        
+        grid-column-gap: 2rem;
+        grid-template-rows: auto;
+        grid-auto-flow: row ;
+        
+    }
+}
+
+
+
+
+/* Three Columns */
+@media (min-width: 32rem){
+    
+    .grid.three-column-header{
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row ;
+        padding-top: 3.5rem;
+        padding-bottom: 0;
+    }
+
+ 
+}
+
+/* Two column */
+@media (min-width: 40rem){
+    
+    .grid.two-column-header{
+        
+        
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
+        grid-template-rows: auto;
+        grid-auto-flow: row ;
+        
+    }
+}
+@media (min-width: 62.5rem){
+    .grid.two-column-getInvolved{
+        
+        
+        grid-template-columns: 1fr 1fr;
+        
+        grid-column-gap: 2rem;
+        grid-template-rows: auto;
+        grid-auto-flow: row ;
+        
+    }
+}
+
+/* Three column */
+@media (min-width: 43.75rem){
+    .grid.three-column-learnMore{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+        margin: auto;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        max-width: 90rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 62.5rem){
+    .grid.three-column-contactUs{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+        margin: auto;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        max-width: 90rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 67.5rem){
+    .grid.three-column-drivers{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+        margin: auto;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        max-width: 80rem;
+        height: auto;
+        padding-top: 5rem;
+    }
+}
+
+
+/* Three column */
+@media (min-width: 48.75rem){
+    
+    .grid.three-column-footer{
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row ;
+    }
+}
+
+/* Two column */
+@media (min-width: 48.75rem){
+    
+    .grid.two-column-footer{
+        
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row ;
+    }
+}
+
+

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <!-- all html was done through resources from lecture slides and teachings -->
+    <head>
+        <title>Vancouver Plan</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+    
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/headerFooter.css">
+    </head>
+
+    <body>
+        
+       <!-- Header -->
+       <header>
+           <div class="grid two-column-header">
+                <!-- Nav bar -->
+                <nav id="nav">
+                    <div class="grid two-column-header">
+                        <!-- left block -->
+                        <div>
+                            <a href="index.html">
+                            <img id="mainLogo" src="img/logo.png" alt="Logo of the Vancouver Plan Organization">
+                            </a>
+                        </div>
+                        <!-- Right block -->
+                        <div class="grid three-column-header">
+                            <a href="learnMore.html">
+                                Learn More
+                            </a> 
+                            <a href="getInvolved.html">
+                                Get Involved
+                            </a> 
+                            <a href="contactUs.html">
+                                Contact Us
+                            </a> 
+                        </div>
+                    </div>
+                </nav>
+             </div>
+        </header>
+
+        <!-- First quote -->
+
+        <p id="quote">
+            Together let's create a Vancouver that addresses the needs of the present and ensures future generations can thrive.
+        </p>
+        <!-- <p id="quote">
+            Tackling Vancouver's problems 
+        </p> -->
+
+        <section id="vancouver">
+            <div class="textBox">
+                <h1>Our Mission</h1>
+                <p id="firstPara">With growing concerns over the city's future, we at Vancouver Plan offer a platform for people to voice their opinion regarding major problems including income, housing and displacement. These three categories are what we, here at VancouverPlan, like to call the drivers of change. With these three drivers of change we can lay the foundation of the way to a brighter, more inclusive and happier city. We plan to shape the future of Vancouver using the thoughts, concerns and opinions of its citizens. Together we will tackle these problems hand in hand for a path towards a unified future. This cannot be done without the peoples help so please explore the site and let us know your opinions.</p>
+                <a href="getInvolved.html" id="survey">Give Feedback</a>     
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <section id="footer">
+                <div class="grid two-column-footer">
+                    <div class="grid three-column-footer">
+                    
+                        <button class="myButton">Twitter</button>
+
+                        <button class="myButton">Instagram</button>
+                    
+                        <button class="myButton">Facebook</button>
+                    
+                    </div>
+                    
+                    <div id="sub"> 
+                    <label for="subs">Subscribe to our newsletter:</label>
+                     <input type="text" id="subs" placeholder="Your email" >
+                    <button id="sub-button">Subscribe</button>
+                    </div>
+                    
+                </div>
+                    
+
+            </section>
+            <!-- Copyright -->
+            <h2 id="copyright">© Vancouver Plan 2020</h2>
+        </footer> 
+
+        <!-- Java Script -->
+        <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        // Change the background of the nav bar when scrolling
+        function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("nav").style.backgroundColor = "#1d5090";
+        } else {
+            document.getElementById("nav").style.backgroundColor = "transparent";
+        }
+        }
+        </script>
+       
+    </body>
+</html>
